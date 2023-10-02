@@ -12,7 +12,7 @@ const DrawerContent = (props) => {
     <View style={styles.container}>
       <DrawerContentScrollView {...props}>
         <View>
-          <Text>abc</Text>
+          <Text>abc</Text>    
         </View>
         <DrawerItemList {...props} />
 
@@ -37,7 +37,7 @@ const DrawerContent = (props) => {
               size={size}
             />
           )}
-        />
+        />      
         <DrawerItem
           label="Settings"
           icon={({color, size}) => (
