@@ -87,7 +87,9 @@ import {
                       ) : null}
                     </View>
                     <View style={styles.boxLoginBtn}>
-                      <TouchableOpacity>
+                      <TouchableOpacity
+                        onPress={() => navigation.navigate("RootClientTabs")}
+                      >
                         <Text style={styles.btnForgot}>Quên mật khẩu?</Text>
                       </TouchableOpacity>
                       <TouchableOpacity
