@@ -11,7 +11,7 @@ const DrawerContent = (props) => {
   return (
     <View style={styles.container}>
       <DrawerContentScrollView {...props}>
-        <View>
+        <View>        
           <Text>abc</Text>    
         </View>
         <DrawerItemList {...props} />
