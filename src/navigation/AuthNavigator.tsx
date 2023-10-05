@@ -4,8 +4,8 @@ import WelcomeScreen from "../screens/authScreens/WelcomScreen";
 import LoginScreen from "../screens/authScreens/LoginScreen";
 import RegisterScreen from "../screens/authScreens/RegisterScreen";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import DrawerNavigator from "./DrawerNavigator";
 import RootClientTabs from "./ClientTab";
+import DrawerNavigator from "./DrawerNavigator";
 
 
 const Stack = createNativeStackNavigator();
@@ -29,8 +29,8 @@ const AuthNavigator = () => {
         options={{ headerShown: false }}
       />
       <Stack.Screen
-        name="RootClientTabs"
-        component={RootClientTabs}
+        name="DrawerNavigator"
+        component={DrawerNavigator}
         options={{ headerShown: false }}
       />
       
